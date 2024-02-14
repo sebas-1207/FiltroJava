@@ -1,0 +1,61 @@
+[ {
+  "numeroFactura" : 12,
+  "fecha" : "2024-02-13T21:05:05",
+  "cliente" : {
+    "id" : 4,
+    "nombre" : "Laura",
+    "apellido" : "Martinez",
+    "email" : "lmartinez@gmail.com",
+    "direccion" : "1004",
+    "celular" : "31890123",
+    "documento" : "1004",
+    "fullName" : "Laura Martinez"
+  },
+  "items" : [ {
+    "cantidad" : 5,
+    "producto" : {
+      "codigo" : 1,
+      "nombre" : "Producto1",
+      "descripcion" : "Descripción del Producto 1",
+      "precioVenta" : 50.0,
+      "precioCompra" : 30.0,
+      "codigoNombre" : "1 Producto1 $ 50,00",
+      "utilidad" : 20.0
+    },
+    "importe" : 250.0
+  } ],
+  "descuentos" : null,
+  "total" : 297.5,
+  "totalIva" : 47.5,
+  "totalSinIva" : 250.0
+}, {
+  "numeroFactura" : 13,
+  "fecha" : "2024-02-13T21:06:01",
+  "cliente" : {
+    "id" : 4,
+    "nombre" : "Laura",
+    "apellido" : "Martinez",
+    "email" : "lmartinez@gmail.com",
+    "direccion" : "1004",
+    "celular" : "31890123",
+    "documento" : "1004",
+    "fullName" : "Laura Martinez"
+  },
+  "items" : [ {
+    "cantidad" : 8,
+    "producto" : {
+      "codigo" : 5,
+      "nombre" : "Producto5",
+      "descripcion" : "Descripción del Producto 5",
+      "precioVenta" : 55.0,
+      "precioCompra" : 30.0,
+      "codigoNombre" : "5 Producto5 $ 55,00",
+      "utilidad" : 25.0
+    },
+    "importe" : 440.0
+  } ],
+  "descuentos" : null,
+  "total" : 523.6,
+  "totalIva" : 83.6,
+  "totalSinIva" : 440.0
+} ]
